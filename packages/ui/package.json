@@ -7,6 +7,9 @@
   "scripts": {
     "lint": "eslint *.ts*"
   },
+  "dependencies": {
+    "@stitches/react": "latest"
+  },
   "devDependencies": {
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",

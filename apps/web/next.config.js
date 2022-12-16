@@ -1,6 +1,11 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    transpilePackages: ["ui"],
+    appDir: true,
+    transpilePackages: ['ui'],
+    serverComponentsExternalPackages: ['@prisma/client', 'prisma']
   },
 };
+
+module.exports = nextConfig;
